@@ -1,16 +1,16 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <!-- CSS  -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="parallax-template.css" type="text/css" rel="stylesheet" media="screen,projection" />
-     <title>BLOG-IT</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="parallax-template.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>BLOG-IT</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css">
@@ -21,9 +21,9 @@
     <link rel="stylesheet" type="text/css" href="../stylesheet/stylesheet.css">
 
 
-
-</head> 
-<body> 
+</head>
+<body >
+<div class="container" >
     <nav class="nav navbar-inverse   navbar-fixed-top ">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -32,90 +32,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://localhost:63342/BLOG/FIRST.html?_ijt=ghfn84kfipfdgmipv1ptoq2cu6">BLOG-IT <span class="glyphicon glyphicon-home"></span> </a>
+                <a class="navbar-brand" href="#">Book-NOTE <span class="glyphicon glyphicon-home"></span> </a>
             </div>
-            <div class="collapse navbar-collapse" id="Navbarcol">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">LIFE-STYLE <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">Movies</a>
-                            </li>
-                            <li>
-                                <a href="#">Books</a>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">BOOKS</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">Novels</a>
-                            </li>
-                            <li>
-                                <a href="#">History</a>
-                            </li>
-                            <li>
-                                <a href="#">Comics</a>
-                            </li>
-                            <li>
-                                <a href="#">Biography</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">MOVIES</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">Thriller</a>
-                            </li>
-                            <li>
-                                <a href="#">Action</a>
-                            </li>
-                            <li>
-                                <a href="#">Horror</a>
-                            </li>
-                            <li>
-                                <a href="#">Romance</a>
-                            </li>
-                            <li>
-                                <a href="#">Comedy</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">NEWS</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">New In books</a>
-                            </li>
-                            <li>
-                                <a href="#">New In movies</a>
-                            </li>
-                            <li>
-                                <a href="#">New releases</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" class="navbar-inverse" id="Navbarcol">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <input type="text" class="form-control" type="text" placeholder="Search" class="glyphicon glyphicon-search"> 
-                    </li>
+
                     <li>
                         <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
                     </li>
                     <li>
-                        <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                        <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><span
+                                class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                     <div id="id01" class="modal">
                         <form class="modal-content animate" action="/action_page.php">
                             <div class="imgcontainer">
-                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                      title="Close Modal">&times;</span>
                                 <img src="../image/face.jpg" alt="Avatar" class="avatar">
                             </div>
                             <div class="container" style="width:90%">
@@ -130,165 +63,234 @@
                                 <button type="submit">Login</button>
                                 <input type="checkbox" checked="checked"> Remember me.
                                 <br>
-                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtn">Cancel
+                                </button>
                                 <span class="psw">Forgot password?</span>
                             </div>
                         </form>
                     </div>
                     <script>
-                    // Get the modal
-                    var modal = document.getElementById('id01');
+                        // Get the modal
+                        var modal = document.getElementById('id01');
 
-                    // When the user clicks anywhere outside of the modal, close it
-                    window.onclick = function(event) {
-                        if (event.target == modal) {
-                            modal.style.display = "none";
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function (event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
                         }
-                    }
                     </script>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="jumbotron"> 
-        <div class="row"> 
-            <div class="col-sm-5">
+    <div class="jumbotron" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
                 <img src="../image/logo.jpg" alt="image" class="img-responsive img-circle"
                      style="height:150px;width:150px;padding: 10px">
-            </div>             
-            <div class="col-sm-7"> 
-                <p><h3 align="centre">Blog on resent movies releases and review of book  </h3></p>
-            </div>             
+            </div>
+            <div class="col-sm-10" align="center">
+               <h1>Book-NOTE</h1>
+                <h3>Place where you can review on read books </h3>
+            </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <!-- carousel code-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="../image/book1.jpeg" alt="IMAGE">
+                        <div class="carousel-caption">
 
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../image/book2.jpg" alt="IMAGE">
+                        <div class="carousel-caption">
 
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../image/book3.jpeg" alt="IMAGE">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span
+                        class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+        </div>
         <div class="container">
-            <div class="row">
-            <!-- carousel code-->             
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
-                <!-- Indicators -->                 
-                <ol class="carousel-indicators"> 
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>                     
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>                     
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>                     
-                </ol>                 
-                <!-- Wrapper for slides -->                 
-                <div class="carousel-inner"> 
-                    <div class="item active"> 
-                        <img src="https://india.gov.in/sites/upload_files/npi/files/vidya-lakshmi-home.jpg" alt="HAPPY HOLI"> 
-                        <div class="carousel-caption"> 
-                            <h3>VIDYA</h3> 
-                        </div>                         
-                    </div>                     
-                    <div class="item"> 
-                        <img src="https://india.gov.in/sites/upload_files/npi/files/spotlights/udaan.jpg" alt="UDAAN"> 
-                        <div class="carousel-caption"> 
-                            <h3>UDAAN</h3> 
-                        </div>                         
-                    </div>                     
-                    <div class="item"> 
-                        <img src="https://india.gov.in/sites/upload_files/npi/files/holi-2017.jpg" alt="HAPPY HOLI"> 
-                        <div class="carousel-caption"> 
-                            <h3>HAPPY HOLI</h3> 
-                        </div>                         
-                    </div>                     
-                </div>                 
-                <!-- Controls -->                 
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> 
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> 
-            </div></div>
-            <div class="container">
 
-                <div class="blog-header">
-                    <h1 class="blog-title">Blog on books</h1>
-                    <p class="lead blog-description">blog posts on books.</p>
+            <div class="blog-header">
+                <h1 class="blog-title">Blog on books</h1>
+                <p class="lead blog-description">blog posts on books.</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-8 blog-main white-panel ">
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Sample blog on books </h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">name of blogger</a></p>
+
+                        <p> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum
+                            nulla sed consectetur</p>
+                        <hr>
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur
+                            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                            vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet
+                            fermentum.</p>
+
+                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit
+                            amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                        <h2 class="blog-post-title">Sample blog on books </h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">name of blogger</a></p>
+
+                        <p> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum
+                            nulla sed consectetur</p>
+                        <hr>
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur
+                            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                            vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet
+                            fermentum.</p>
+
+                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit
+                            amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                        <p class="pull-left"><button class="btn-default" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="pull-right"><button class="btn-default" onclick="myFunction('demo1')" id="myBtn1"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+
+                       <br>
+                        <br>
+
+                    </div><!-- /.blog-post -->
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Sample blog on books </h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">name of blogger</a></p>
+
+                        <p> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum
+                            nulla sed consectetur</p>
+                        <hr>
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur
+                            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                            vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet
+                            fermentum.</p>
+
+                        <p class="pull-left"><button class="btn-default" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="pull-right"><button class="btn-default" onclick="myFunction('demo1')" id="myBtn2"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+
+                        <br>
+                        <br>
+
+                    </div><!-- /.blog-post -->
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Sample blog on books </h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">name of blogger</a></p>
+
+                        <p> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum
+                            nulla sed consectetur</p>
+                        <hr>
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur
+                            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                            vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet
+                            fermentum.</p>
+
+                        <p class="pull-left"><button class="btn-default" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="pull-right"><button class="btn-default" onclick="myFunction('demo1')" id="myBtn3"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+
+                        <br>
+                        <br>
+
+                    </div><!-- /.blog-post -->
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Sample blog on books </h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">name of blogger</a></p>
+
+                        <p> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum
+                            nulla sed consectetur</p>
+                        <hr>
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur
+                            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                            vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet
+                            fermentum.</p>
+
+                        <p class="pull-left"><button class="btn-default" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="pull-right"><button class="btn-default" onclick="myFunction('demo1')" id="myBtn4"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+
+                        <br>
+                        <br>
+
+                    </div><!-- /.blog-post -->
+
                 </div>
 
-                <div class="row">
-
-                    <div class="col-sm-8 blog-main">
-
-                        <div class="blog-post">
-                            <h2 class="blog-post-title">Sample blog on books </h2>
-                            <p class="blog-post-meta">January 1, 2014 by <a href="#">name of blogger</a></p>
-
-                            <p> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur</p>
-                            <hr>
-                            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-
-                            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-
-                            <h2 class="blog-post-title">Sample blog on books </h2>
-                            <p class="blog-post-meta">January 1, 2014 by <a href="#">name of blogger</a></p>
-
-                            <p> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur</p>
-                            <hr>
-                            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-
-                            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-                        </div><!-- /.blog-post -->
-
-                        <div class="blog-post">
-                            <h2 class="blog-post-title">Another blog post</h2>
-                            <p class="blog-post-meta">December 23, 2013 by <a href="#">User name</a></p>
-
-                            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                            <blockquote>
-                                <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </blockquote>
-                            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                        </div><!-- /.blog-post -->
-
-                        <div class="blog-post">
-                            <h2 class="blog-post-title">New feature</h2>
-                            <p class="blog-post-meta">December 14, 2013 by <a href="#">User name</a></p>
-
-                            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                            <ul>
-                                <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                                <li>Donec id elit non mi porta gravida at eget metus.</li>
-                                <li>Nulla vitae elit libero, a pharetra augue.</li>
-                            </ul>
-                            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                        </div>
-
-                        <nav>
-                            <ul class="pager">
-                                <li><a href="#">Previous</a></li>
-                                <li><a href="#">Next</a></li>
-                            </ul>
-                        </nav>
-
+                <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                    <div class="sidebar-module sidebar-module-inset">
+                        <h3 class="well well-sm">About US</h3>
+                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit
+                            amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                     </div>
+                    <div class="sidebar-module">
+                        <h3 class="well well-sm">Archives</h3>
+                        <ol class="list-unstyled">
+                            <li><a href="#">March 2017</a></li>
+                            <li><a href="#">February 2017</a></li>
+                            <li><a href="#">January 2017</a></li>
+                            <li><a href="#">December 2016</a></li>
+                            <li><a href="#">November 2016</a></li>
+                            <li><a href="#">October 2016</a></li>
+                            <li><a href="#">September 2016</a></li>
+                            <li><a href="#">August 2016</a></li>
+                            <li><a href="#">July 2016</a></li>
+                            <li><a href="#">June 2016</a></li>
+                            <li><a href="#">May 2016</a></li>
+                            <li><a href="#">April 2016</a></li>
+                        </ol>
+                    </div>
+                    <div class="sidebar-module">
+                        <h3 class="well well-sm">Popular Uploads</h3>
+                        <ol class="list-unstyled">
+                           <li>Name of post</li>
+                            <li>Name of post</li>
+                            <li>Name of post</li>
+                            <li>Name of post</li>
+                            <li>Name of post</li>
+                            <li>Name of post</li>
 
-                    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-                        <div class="sidebar-module sidebar-module-inset">
-                            <h3>About US</h3>
-                            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        </div>
-                        <div class="sidebar-module">
-                            <h3>Archives</h3>
-                            <ol class="list-unstyled">
-                                <li><a href="#">March 2017</a></li>
-                                <li><a href="#">February 2017</a></li>
-                                <li><a href="#">January 2017</a></li>
-                                <li><a href="#">December 2016</a></li>
-                                <li><a href="#">November 2016</a></li>
-                                <li><a href="#">October 2016</a></li>
-                                <li><a href="#">September 2016</a></li>
-                                <li><a href="#">August 2016</a></li>
-                                <li><a href="#">July 2016</a></li>
-                                <li><a href="#">June 2016</a></li>
-                                <li><a href="#">May 2016</a></li>
-                                <li><a href="#">April 2016</a></li>
-                            </ol>
-                        </div>
-
+                        </ol>
+                    </div>
+                    <div class="sidebar-module">
+                        <h3 class="well well-sm">Connect with us by Email</h3>
+                        <form class="form-signin">
+                                <label for="inputEmail" class="sr-only">Email address</label>
+                                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                               <button class="btn btn-lg btn-danger btn-block" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="sidebar-module">
+                        <h3 class="well well-sm">Follow us</h3>
+                        <ol class="list-unstyled">
+                            <li><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li>
+                        </ol>
                     </div>
 
                 </div>
@@ -297,32 +299,33 @@
 
         </div>
 
+    </div>
+</div>
 
-            <footer>
-                <div class="container" style="width:90%;">
-                    <div class="btn-group  btn-group-xs" role="group" aria-label="..." style="width:90%;">
-                        <button type="button" class="btn btn-default " style="width:30%;">About Us</button>
-                        <button type="button" class="btn btn-default" style="width:30%;">Contact US</button>
-                        <button type="button" class="btn btn-default" style="width:30%;">Feedback</button>
-                        <button type="button" class="btn btn-default " style="width:30%;">Help</button>
-                        <button type="button" class="btn btn-default" style="width:30%;">Website Policy</button>
+<footer class="container-fluid side-collapse-container">
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="text-muted text-center">© Copyright 2017 Book-NOTE</p>
+        </div>
+    </div>
+</footer>
+<script>
+    // Toggle between hiding and showing blog replies/comments
+    document.getElementById("myBtn").click();
+    function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
 
-                    </div>
-                    <div class="row">
-                        <div style="padding: 40px 10px;" class="footer- right" style="width:90%;">
-                            <a href="http://google.com/+">Google+</a>
-                            <a class="btn btn-social-icon btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-google']);"><span class="fa fa-google"></span></a>
-                            <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                            <a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a>
-                            <a href="http://twitter.com/">Twitter</a>
-                            <a class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"><span class="fa fa-twitter"></span></a>
-                        </div>
-                    </div>
-                    <div style="width:90%;">
-                        <p align="center" style="width:90%;">© Copyright 2017 Bloggers </p>
-                    </div>
-                </div>
-            </footer>
+    function likeFunction(x) {
+        x.style.fontWeight = "bold";
+        x.innerHTML = "✓ Liked";
+    }
+</script>
 
 </body>
 </html>
